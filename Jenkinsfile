@@ -1,4 +1,4 @@
 @Library(['shared-library']) _
 mypipeline{
-  name = "library"
+  buildCommand ="mvn clean install"
 }
